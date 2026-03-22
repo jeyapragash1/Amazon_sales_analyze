@@ -1,0 +1,27 @@
+# Virtual Environment
+bf_env/
+env/
+venv/
+.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Large Data Files (Recommendation: keep only processed samples if needed)
+data/*.csv
+!data/orders.csv  # Keep the final integrated orders file for portability
+data/amazon.csv   # This is usually the large raw source file
